@@ -1,0 +1,96 @@
+body {
+    /* background-color: blue; */
+    margin: 0px;
+}
+header {
+    position: fixed;
+}
+main{
+    padding-top: 75px;
+}
+.heading {
+    background-color: #015EAA;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.title-box {
+    text-align: center;
+    /* background-color: red; */
+    margin-left: 24px;
+}
+
+.logo {
+    height: 72px;
+    position: absolute;
+    padding-right: 12px;
+}
+.line {
+    height: 0px;
+    width: 120px;
+    border: 2px solid #4AABDB;
+}
+.introduction { 
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #C9C9C9;
+}
+.description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color: red; */
+    margin-left: 8px;
+    font-size: 16px;
+}
+.board {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+.board-small {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin-right: 12px;
+}
+.class-curriculum {
+    border-radius: 4px;
+    width: 32px;
+    height: 18px;
+    margin-left: 8px;
+}
+.class-curriculum-intro {
+    display: flex;
+}
+.button {
+    height: 36px;
+    width: 96px;
+    font-size: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-left: 8px;
+    border: 0px;
+    border: 1px solid #cacaca;
+}
+
+
+.button-list {
+    margin-top: 18px;
+    margin-left: 48px;
+    margin-bottom: 0px;
+}

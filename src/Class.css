@@ -1,0 +1,128 @@
+.class {
+    width: 160px;
+    height: 90px;
+    border-radius: 12px;
+    background-color: #D94141;
+    
+}
+.class-box {
+    width: 160px;
+    height: 90px;
+    background-color: #ffffff;
+    border: 3px solid #4AABDB;
+    border-radius: 12px;
+    align-items: baseline;
+    /* margin-bottom: 8px; */
+    margin: 12px;
+}
+.organic {
+    background-color: #FFFFFF;
+}
+.physic {
+    background-color: #FFFFFF;
+}
+.analysis {
+    background-color: #FFFFFF;
+}
+.inorganic {
+    background-color: #FFFFFF;
+}
+.bio {
+    background-color: #FFFFFF;
+}
+.etc {
+    background-color: #FFFFFF;
+}
+.physic-on {
+    background-color: #e78f79;
+}
+.organic-on {
+    background-color: #eee488;
+}
+.analysis-on {
+    background-color: #B5E3F8;
+}
+.inorganic-on {
+    background-color: #c5a1f5;
+}
+.bio-on {
+    background-color: #91eeb5;
+}
+.etc-on {
+    background-color: #d1cfcf;
+}
+.on {
+    background-color: #B5E3F8;
+}
+
+
+.class-name {
+    font-size: 18px;
+    /* background-color: blue; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+.class-num {
+    font-size: 18px;
+    /* background-color: blue; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.class-type {
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.essential-normal{
+    background-color: #D94141;
+}
+
+.choice-normal{
+    background-color: #3AA56C;
+}
+
+.essential-exceptdouble{
+    background-color: #F5F53A;
+}
+
+.choice-advanced{
+    background-color: #5D5DDD;
+}
+
+.class-credit {
+    font-size: 16px;
+    /* background-color: blue; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+}
+
+.class-semester {
+    font-size: 16px;
+    /* background-color: pink; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-weight: 400;
+}
+
+.class-box-top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.class-info {
+    display: flex;
+}
